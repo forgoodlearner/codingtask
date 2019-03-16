@@ -7,7 +7,6 @@ fun main(args: Array<String>) {
   b.forEach {
     println(it)
   }
-
 }
 
 fun solution(A: IntArray, K: Int): IntArray {
@@ -17,6 +16,7 @@ fun solution(A: IntArray, K: Int): IntArray {
   val a = A.toMutableList()
   val b = mutableListOf<Int>()
   val k = if (K > a.size) K.minus(a.size) else K
+
   // remove last index k's elements from list a
   repeat(k) {
     b.add(a.last())
