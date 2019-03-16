@@ -1,6 +1,7 @@
 fun main(args: Array<String>) {
     println(solution(1041))
     println(solution(32))
+    println(solution(27))
 }
 
 fun solution(N: Int): Int {
