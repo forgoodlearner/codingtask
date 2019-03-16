@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
     println(solution(1041))
     println(solution(543))
-    println(solution(31))
+    println(solution(39))
 }
 
 fun solution(N: Int): Int {
