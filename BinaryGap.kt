@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     println(solution(1041))
-    println(solution(32))
+    println(solution(543))
     println(solution(31))
 }
 
