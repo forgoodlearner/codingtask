@@ -8,6 +8,7 @@ fun solution(X: Int, Y: Int, D: Int) : Int {
   if (X == Y) return 0
 
   // case 2: X + D == Y -> one jump -> return 1
+  if (X.plus(D) == Y) return 1
 
   // case 3: X < Y -> need to jump -> return ???
   val sub_Y_X = Y - X
